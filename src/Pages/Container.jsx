@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import Modal from "../Components/Modal"
-import List from "../Components/list"
+import List from "../Components/List"
 import ModalEdit from '../Components/ModalEdit'
 
 
@@ -89,8 +89,6 @@ function Container() {
     }
 
     let dataLength = dataApi.length
-
-    console.log(dataApi)
 
   return (
     <>

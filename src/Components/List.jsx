@@ -1,5 +1,3 @@
-
-
 function List({item, handleDelete, setActiveItem, setShowModalEdit}) {
 
   return (
