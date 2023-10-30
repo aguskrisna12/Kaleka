@@ -7,11 +7,11 @@ function List({item, handleDelete, setActiveItem, setShowModalEdit}) {
                 <div className="flex py-3 grow">
                     <div className="min-w-[30%] md:w-[100px]">
                         <p className="text-stone-500 text-sm font-bold fontInter">Username</p>
-                        <p className="text-black text-lg font-bold fontInter pr-3">{item.username}</p>
+                        <p className="text-black text-lg font-bold fontInter pr-3 break-words">{item.username}</p>
                     </div>
-                    <div>
+                    <div className="min-w-[30%] md:w-[100%]">
                         <p className="text-stone-500 text-sm font-bold fontInter">Email</p>
-                        <p className="text-black text-lg font-bold fontInter">{item.email}</p>
+                        <p className="text-black text-lg font-bold fontInter break-words">{item.email}</p>
                     </div>
                 </div>
                 <div className="flex gap-x-4">
